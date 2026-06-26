@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081B36"/>
+      <stop offset="100%" stop-color="#1B4D87"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <g opacity="0.10" stroke="#2E97A6" stroke-width="2" fill="none">
+    <path d="M0 200 C 250 140, 450 260, 700 200 S 1000 140, 1200 210"/>
+    <path d="M0 260 C 250 200, 450 320, 700 260 S 1000 200, 1200 270"/>
+  </g>
+  <!-- Flask -->
+  <g transform="translate(720,260)" opacity="0.95">
+    <path d="M40 0 L100 0 L100 90 L150 220 C158 244, 140 264, 116 264 L24 264 C0 264, -18 244, -10 220 L40 90 Z" fill="none" stroke="#D9A52B" stroke-width="6"/>
+    <line x1="20" y1="0" x2="120" y2="0" stroke="#D9A52B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-2 196 L142 196" stroke="#D9A52B" stroke-width="5" opacity="0.7"/>
+    <circle cx="40" cy="226" r="7" fill="#D9A52B"/>
+    <circle cx="70" cy="240" r="5" fill="#D9A52B" opacity="0.7"/>
+    <circle cx="95" cy="222" r="6" fill="#D9A52B" opacity="0.85"/>
+  </g>
+  <!-- abstract circuit / data nodes -->
+  <g transform="translate(220,470)" stroke="#FFFFFF" stroke-width="2" opacity="0.45" fill="none">
+    <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
+    <circle cx="90" cy="-40" r="6" fill="#FFFFFF"/>
+    <circle cx="170" cy="10" r="6" fill="#FFFFFF"/>
+    <circle cx="60" cy="70" r="6" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="90" y2="-40"/>
+    <line x1="90" y1="-40" x2="170" y2="10"/>
+    <line x1="0" y1="0" x2="60" y2="70"/>
+    <line x1="60" y1="70" x2="170" y2="10"/>
+  </g>
+</svg>
